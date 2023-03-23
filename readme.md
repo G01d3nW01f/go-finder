@@ -1,10 +1,9 @@
-build:
-
+# build:
+```
 go build main.go 
+```
 
-
-argument: <strings>
-
+# Usage
 ```
 ./main "Password"
 
