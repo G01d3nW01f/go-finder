@@ -15,9 +15,9 @@ func main() {
         os.Exit(1)
     }
 
-    root := "." // 検索を開始するディレクトリ
+    root := "."
     target := os.Args[1]
-    exclude := os.Args[0] // 自分自身のファイルを除外する
+    exclude := os.Args[0]
 
     err := filepath.Walk(root, func(path string, info os.FileInfo, err error) error {
         if err != nil {
