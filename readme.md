@@ -1,9 +1,9 @@
-# build:
+  build:
 ```
 go build main.go 
 ```
 
-# Usage
+  Usage
 ```
 ./main "Password"
 
