@@ -1,3 +1,8 @@
+build:
+
+go build main.go 
+
+
 argument: <strings>
 
 ```
