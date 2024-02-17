@@ -7,7 +7,7 @@ go build search.go
 ```
 ./main "Password"
 
--> ./main "Password"
+-> ./search "Password"
 test.txt:Password = "Th15_15_4_t35t"
 
 ```
