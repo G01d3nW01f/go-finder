@@ -11,7 +11,7 @@ import (
 
 func main() {
     if len(os.Args) != 2 {
-        fmt.Println("Usage: go run search.go <string>")
+        fmt.Println("Usage: ./search.go <string>")
         os.Exit(1)
     }
 
