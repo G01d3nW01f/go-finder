@@ -1,6 +1,6 @@
   build:
 ```
-go build main.go 
+go build search.go 
 ```
 
   Usage
